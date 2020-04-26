@@ -4,7 +4,13 @@
 
 
 ###二、安装及测试   
-####1.1 TensorFlow Object Detection API 下载   
+####1.1 TensorFlow Models 下载   
+注意：为了确保与 TensorFlow 版本兼容（笔者使用1.15.0），建议使用 models v1.13.0 版本，它是 v1 系列的中最后一个版本。在 git bash 中可通过以下代码下载：   
+
+
+    git clone -b r1.13.0 https://github.com/tensorflow/models.git
+
+
 
 
 ####1.2 COCO API 安装
